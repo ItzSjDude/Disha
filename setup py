@@ -1,0 +1,14 @@
+from distutils.core import setup
+
+setup(
+    name = 'disha',
+    packages = ['disha_pypi'],
+    version = 'test 1.1',  # Ideally should be same as your GitHub release tag varsion
+    description = 'description',
+    author = '',
+    author_email = 'support@itzsjdude.in',
+    url = '#url',
+    download_url = '#url',
+    keywords = ['', ''],
+    classifiers = [],
+)
