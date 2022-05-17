@@ -6,7 +6,6 @@ author_email = "Support@ItzSjDude.in"
 description = "A Secure and Optimized Python Based Library."
 license = "GNU AFFERO GENERAL PUBLIC LICENSE (v3)"
 url = "https://github.com/ItzSjDude/Disha"
-requirements = list(map(str.strip, open("requirements.txt").readlines()))
 setuptools.setup(
     name=name,
     version="v1.0",
@@ -16,7 +15,7 @@ setuptools.setup(
     url=url,
     license=license,
     packages=setuptools.find_packages(),
-    install_requires=requirements,
+    install_requires=['wheel'],
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
