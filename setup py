@@ -9,7 +9,7 @@ url = "https://github.com/ItzSjDude/Disha"
 requirements = list(map(str.strip, open("requirements.txt").readlines()))
 setuptools.setup(
     name=name,
-    version="1.0",
+    version="1.0.1",
     author=author,
     author_email=author_email,
     description=description,
