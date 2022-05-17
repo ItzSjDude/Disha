@@ -16,7 +16,7 @@ setuptools.setup(
     url=url,
     license=license,
     packages=setuptools.find_packages(),
-    install_requires=[],
+    install_requires=requirements,
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
